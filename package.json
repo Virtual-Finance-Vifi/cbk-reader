@@ -1,0 +1,27 @@
+{
+  "name": "cbk-reader",
+  "version": "1.0.0",
+  "description": "FX Reader App from CBK Website",
+  "main": "index.js",
+  "author": "Tony Olendo",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --transpile-only index.ts"
+  },
+  "dependencies": {
+    "@reclaimprotocol/js-sdk": "^2.1.1",
+    "@reclaimprotocol/zk-fetch": "^0.2.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.3",
+    "@types/express": "^4.17.21",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.2"
+  }
+}

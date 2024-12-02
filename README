@@ -1,0 +1,15 @@
+# CBK Reader
+
+## Overview
+
+CBK Reader is a project designed to read the Central Bank FX rate for US Dollars from the Central Bank of Kenya and use the Reclaim Protocol to provision this information on-chain.
+
+## Features
+
+- Fetches the latest FX rate for US Dollars from the Central Bank of Kenya.
+- Uses Reclaim Protocol to securely and efficiently provision the FX rate information on-chain.
+
+## Installation
+
+To install the necessary dependencies, run:
+`yarn`
