@@ -1,0 +1,68 @@
+# Node.js specific
+node_modules/
+npm-debug.log*
+yarn-error.log
+dist/
+.build/
+.env
+.env.local
+.env.*.local
+
+# Yarn specific
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+.yarnrc.yml
+.yarnrc
+
+# TypeScript specific
+*.tsbuildinfo
+out/
+lib/
+build/
+coverage/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.log
+*.bak
+Icon?
+
+# IDE and Editor specific
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-*
+*.kate-swp
+*.orig
+
+# Test output
+coverage/
+*.lcov
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Package lock (if using Yarn, no npm lock files)
+package-lock.json
+
+# Optional OS or Editor backup files
+*~
+*.swp
+*.swo
+
+# Dependency directories
+jspm_packages/
+
+# Built files
+build/
+dist/
